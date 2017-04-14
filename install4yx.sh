@@ -3,7 +3,7 @@
 # By chenxm
 set -e
 
-GEEKNOTE_REPO=https://github.com/VitaliyRodnenko/geeknote.git
+GEEKNOTE_REPO=https://github.com/caesar0301/geeknote2.git
 YX_SERVER=app.yinxiang.com
 
 if [ -d geeknote ]; then
