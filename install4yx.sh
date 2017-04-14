@@ -9,7 +9,7 @@ YX_SERVER=app.yinxiang.com
 if [ -d geeknote ]; then
   echo "warnning: existing dir: geeknote"
 else
-  git clone $GEEKNOTE_REPO
+  git clone $GEEKNOTE_REPO geeknote
 fi 
 
 sed -i 's/www.evernote.com/app.yinxiang.com/g' geeknote/geeknote/config.py
