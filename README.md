@@ -3,5 +3,5 @@
 # Install
 
 ```bash
-curl --silent https://raw.githubusercontent.com/caesar0301/geeknote-for-yx/master/install4yx.sh | sudo bash
+curl --silent https://raw.githubusercontent.com/LumpyChen/geeknote-for-yx/patch-1/install4yx.sh | sudo bash
 ```
