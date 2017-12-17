@@ -12,13 +12,13 @@ else
   git clone $GEEKNOTE_REPO geeknote
 fi 
 
-# sed -i '' 's/www.evernote.com/app.yinxiang.com/g' geeknote/geeknote/config.py
-# sed -i '' 's/Connect to Evernote/Connect to Yinxiang/g' geeknote/geeknote/geeknote.py
+sed -i '' 's/www.evernote.com/app.yinxiang.com/g' geeknote/geeknote/config.py
+sed -i '' 's/Connect to Evernote/Connect to Yinxiang/g' geeknote/geeknote/geeknote.py
 
-# cd geeknote
-# python setup.py install
-# cd -
+cd geeknote
+python setup.py install
+cd -
 
 echo "Success!"
-# echo "Use 'geeknote --help' for more info."
+echo "Use 'geeknote --help' for more info."
 exit 0
